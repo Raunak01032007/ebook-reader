@@ -8,9 +8,28 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "epubjs": "^0.3.93",
+    "file-saver": "^2.0.5",
+    "gapi-script": "^1.2.0",
+    "lucide-react": "^0.485.0",
+    "pdfjs-dist": "^5.0.375",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-pdf": "^9.2.1",
+    "react-reader": "^2.0.13",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
